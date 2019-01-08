@@ -1,11 +1,21 @@
-
-
-
-const sayhi = (name:string, age:number, gender:string): string => {
- return `${name}${age}${gender}`
+interface Human{
+    name:string;
+    age:number;
+    gender:string;
 }
 
-console.log(sayhi("nicolas", 28, "female!"));
+const person = {
+    name:"nicolas",
+    gender:"male",
+    age:22
+}
+
+
+const sayhi = (person:Human): string => {
+ return `${person.name}${person.age}${person.gender}`
+}
+
+console.log(sayhi(person));
 
 
 
