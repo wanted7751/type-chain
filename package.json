@@ -1,0 +1,19 @@
+{
+  "name": "type-chain",
+  "version": "1.0.0",
+  "description": "typescript blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanted7751/type-chain.git"
+  },
+  "author": "park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanted7751/type-chain/issues"
+  },
+  "homepage": "https://github.com/wanted7751/type-chain#readme"
+}
