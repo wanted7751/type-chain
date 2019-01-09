@@ -33,7 +33,7 @@ class Block{
 
 const genesisBlock:Block = new Block(0,"2020202033", "","Hello",123456);
  
-let blockchain: [Block] = [genesisBlock]
+let blockchain: Block[] = [genesisBlock]
 
 const getBlockchain = () :Block[] => blockchain;
 
